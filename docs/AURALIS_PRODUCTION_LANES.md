@@ -2,7 +2,9 @@
 
 Auralis can operate with two different production lanes.
 
-This distinction matters because some products may be created at home, while others are designed by the brand but produced and shipped by a fulfillment provider.
+This distinction matters internally because some products may be created at home, while others are designed by the brand and produced by a fulfillment partner.
+
+The customer-facing brand does not need to explain behind-the-scenes handling unless it affects shipping, returns, timing, or product expectations.
 
 ## Lane 1: Home-Created Artwork
 
@@ -35,9 +37,23 @@ Home-created artwork should be used for:
 - source material for apparel
 - occasional premium pieces
 
-## Lane 2: Designed-But-Not-Touched Products
+## Lane 2: Partner-Fulfilled Products
 
-This lane is for products designed by the brand but fulfilled by a print-on-demand provider.
+This lane is for products designed by the brand and produced by a fulfillment partner.
+
+Customer-facing language should usually say:
+
+```txt
+made to order
+```
+
+or
+
+```txt
+produced after purchase
+```
+
+rather than emphasizing whether the owner physically touches the item.
 
 Examples:
 - T-shirts
@@ -47,9 +63,9 @@ Examples:
 - mugs
 - accessories
 
-## Fulfillment Provider Responsibilities
+## Fulfillment Partner Responsibilities
 
-Printify or Printful handles:
+The fulfillment partner handles:
 - printing
 - packaging
 - shipping
@@ -76,7 +92,7 @@ Artwork or design idea
 → website / Shopify listing
 → social content
 → customer purchase
-→ fulfillment lane chosen
+→ production lane chosen
 ```
 
 ## When To Use Home-Created Lane
@@ -87,20 +103,20 @@ Use home-created fulfillment when:
 - shipping a one-of-one product
 - offering something personal or premium
 
-## When To Use Print-On-Demand Lane
+## When To Use Partner Fulfillment
 
-Use print-on-demand when:
+Use partner fulfillment when:
 - testing designs
 - selling apparel
 - avoiding inventory
-- avoiding shipping work
-- scaling without handling products physically
+- reducing shipping work
+- scaling production
 
-## Important Rule
+## Internal Clarity Rule
 
-Do not mix the lanes without clarity.
+Do not mix the lanes internally without clarity.
 
-Each product should clearly state whether it is:
+Each product should be tracked internally as either:
 
 ```txt
 Home-created / manually fulfilled
@@ -109,17 +125,43 @@ Home-created / manually fulfilled
 or
 
 ```txt
-Print-on-demand / provider fulfilled
+Partner-fulfilled / made to order
 ```
 
-## Customer Transparency
+## Customer-Facing Clarity
 
-Product listings should be clear about:
-- production method
+Product listings should be clear about what customers actually need to know:
+- product type
+- material
+- sizing
+- production timing
 - shipping expectations
-- whether the item is handmade/original
-- whether the item is print-on-demand
-- expected fulfillment time
+- return policy
+- whether an item is an original, limited piece, or made-to-order product
+
+Product listings do not need to say:
+
+```txt
+I never touch this product
+```
+
+That is an internal operations detail, not the brand message.
+
+## Recommended Customer Language
+
+Use language like:
+
+```txt
+This piece is made to order and produced after purchase.
+```
+
+```txt
+Please allow time for production before shipping.
+```
+
+```txt
+Original artwork and limited pieces may have separate handling timelines.
+```
 
 ## Brand Position
 
@@ -131,4 +173,4 @@ The connection is the visual identity:
 personal artwork + abstract design language + wearable products
 ```
 
-Auralis can include handmade art and provider-fulfilled apparel as long as the brand presentation stays curated and intentional.
+Auralis can include handmade art and partner-fulfilled apparel as long as the brand presentation stays curated and intentional.
